@@ -1,0 +1,11 @@
+# Conector Kommo CRM · Cloudflare Worker
+# O nome final vira "kommo-crm-<cliente>" no deploy.
+name = "kommo-crm"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+[observability]
+enabled = false
+
+# account_id não fica aqui. Cada cliente publica na própria conta Cloudflare
+# (a conta em que rodou `wrangler login`).

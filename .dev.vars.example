@@ -1,0 +1,14 @@
+# Variáveis do conector Kommo.
+# No fluxo do botão "Deploy to Cloudflare", você cola estes valores no painel
+# da Cloudflare depois que o Worker sobe (Settings > Variables and Secrets),
+# marcando cada um como "Secret". Nunca coloque os valores reais neste arquivo.
+
+# Segredo do caminho da URL. Invente um texto longo e aleatório (32+ caracteres,
+# sem espaços). O do seu gerenciador de senhas serve. É a "senha" do conector.
+MCP_SECRET="cole-aqui-um-texto-aleatorio-longo"
+
+# Subdomínio da sua conta Kommo. Em "suaempresa.kommo.com", é "suaempresa".
+KOMMO_SUBDOMAIN="suaempresa"
+
+# Token de acesso de longa duração da API do Kommo.
+KOMMO_TOKEN="seu-token-de-longa-duracao"
